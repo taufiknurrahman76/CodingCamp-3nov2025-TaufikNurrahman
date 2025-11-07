@@ -1,3 +1,8 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -15,3 +20,92 @@
 .image {
     border-radius: 50%;
 }
+
+.main-box {
+  width: 90%;
+  margin: 30px auto;
+  border: 1px solid #aaa;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* FORM */
+form {
+  width: 48%;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  width: 120px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 70px;
+  resize: none;
+}
+
+.gender {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 6px;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* OUTPUT */
+.output {
+  width: 48%;
+  border: 1px solid #aaa;
+  padding: 55px;
+  font-size: 14px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+/* FOOTER */
+footer {
+  text-align: right;
+  font-size: 12px;
+  margin: 10px 20px;
+  color: #555;
+}
+
